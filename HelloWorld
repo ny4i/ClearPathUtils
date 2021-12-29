@@ -1,0 +1,8 @@
+begin
+ebcdic array ea[0:255];
+
+replace ea by "Hello, World",48"00";
+
+display(ea);
+
+end.
